@@ -33,11 +33,11 @@ module.exports = {
    */
   deploy : {
     production : {
-      user : 'node',
-      host : '212.83.163.1',
+      user : 'Pixelogic_Interviews',
+      host : '10.0.0.20',
       ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
-      path : '/var/www/production',
+      repo : 'https://github.com/M-Hagras/helloPM2.git',
+      path : '/Users/Interviews-1/Documents/production',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     dev : {
