@@ -38,7 +38,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/M-Hagras/helloPM2.git',
       path : '/Users/pm2_user/Documents/production',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'npm install &&b pm2 install pm2-server-monit && pm2 reload ecosystem.config.js --env production'
     },
     dev : {
       user : 'node',
