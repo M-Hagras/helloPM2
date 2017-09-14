@@ -33,7 +33,7 @@ module.exports = {
    */
   deploy : {
     production : {
-      user : 'Pixelogic_Interviews',
+      user : 'interviews-1',
       host : '10.0.0.20',
       ref  : 'origin/master',
       repo : 'https://github.com/M-Hagras/helloPM2.git',
